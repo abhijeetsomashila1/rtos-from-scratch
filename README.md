@@ -7,6 +7,7 @@ An RTOS is typically smaller and lighter weight than a general purpose operating
 
 # Multitasking
 A conventional single core processor can only execute a single task at a time, but by rapidly switching between tasks a multitasking operating system can make it appear as if each task is executing concurrently.
+
 Using RTOS, a single core processor can LARP multitasking, without actually doing it 🥀
 
 <img width="407" height="204" alt="image" src="https://github.com/user-attachments/assets/21fba4fe-6fdf-4e6b-bc79-ed99c587b05f" />
