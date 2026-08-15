@@ -12,6 +12,16 @@ Using RTOS, a single core processor can LARP multitasking, without actually doin
 
 <img width="407" height="204" alt="image" src="https://github.com/user-attachments/assets/21fba4fe-6fdf-4e6b-bc79-ed99c587b05f" />
 
+## Scheduling
+A scheduler decides which task should be executed at a particular time.
+Embedded Systems are designed to provide a timely response to real world events which can have deadlines. These deadlines can be met by assigning a priority to each task.
+Scheduling policy of RTOS ensures that the task with the highest priority gets executed in the given processing time.
+
+In simple words, scheduling is similar to a restaurant (Atleast thats what i understood). 
+Dishes with the highest number of orders are priortized first. Tasks like washing dishes, managing inventory, etc have the least priority.
+
+
+
 
 
 
