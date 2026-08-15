@@ -3,8 +3,6 @@ A Real-Time Operating System (RTOS) is a type of computer operating system desig
 An RTOS is typically smaller and lighter weight than a general purpose operating system, making RTOSes suitable for memory, compute and power constrained devices.
 
 
-<img width="413" height="157" alt="image" src="https://github.com/user-attachments/assets/001f171e-58de-4e4e-8eb0-954d43c8e7c5" />
-
 # Multitasking
 A conventional single core processor can only execute a single task at a time, but by rapidly switching between tasks a multitasking operating system can make it appear as if each task is executing concurrently.
 
