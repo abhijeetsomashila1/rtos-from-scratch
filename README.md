@@ -20,25 +20,6 @@ Scheduling policy of RTOS ensures that the task with the highest priority gets e
 In simple words, scheduling is similar to a restaurant (Atleast thats what i understood). 
 Dishes with the highest number of orders are priortized first. Tasks like washing dishes, managing inventory, etc have the least priority.
 
-State Diagram:
-
-          +---------+
-          |  Ready  |
-          +---------+
-               |
-               v
-          +---------+
-          | Running |
-          +---------+
-               |
-       +-------+-------+
-       |               |
-       v               v
- +-----------+    +-----------+
- | Blocked   |    | Completed |
- +-----------+    +-----------+
-
-Overall Scheduling:
 
                  +----------------+
                  |    Scheduler   |
