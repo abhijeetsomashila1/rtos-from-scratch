@@ -17,6 +17,19 @@ A scheduler decides which task should be executed at a particular time.
 Embedded Systems are designed to provide a timely response to real world events which can have deadlines. These deadlines can be met by assigning a priority to each task.
 Scheduling policy of RTOS ensures that the task with the highest priority gets executed in the given processing time.
 
+Key Goal
+
+The primary goal of scheduling in an RTOS is to ensure that time-critical tasks meet their deadlines while maintaining predictable and deterministic system behavior.
+
+'''
+Ready Tasks --> Scheduler --> CPU
+
+Task A (High Priority)
+Task B (Medium Priority)
+Task C (Low Priority)
+'''
+The scheduler continuously monitors ready tasks and assigns the CPU to the most appropriate task according to the selected scheduling algorithm.
+
 In simple words, scheduling is similar to a restaurant (Atleast thats what i understood). 
 Dishes with the highest number of orders are priortized first. Tasks like washing dishes, managing inventory, etc have the least priority.
 
