@@ -21,14 +21,13 @@ Key Goal
 
 The primary goal of scheduling in an RTOS is to ensure that time-critical tasks meet their deadlines while maintaining predictable and deterministic system behavior.
 
-'''
-Ready Tasks --> Scheduler --> CPU
+Ready Tasks --> Scheduler --> CPU<br>
 
-Task A (High Priority)
-Task B (Medium Priority)
-Task C (Low Priority)
-'''
-The scheduler continuously monitors ready tasks and assigns the CPU to the most appropriate task according to the selected scheduling algorithm.
+Task A (High Priority)<br>
+Task B (Medium Priority)<br>
+Task C (Low Priority)<br>
+
+The scheduler continuously monitors ready tasks and assigns the CPU to the most appropriate task according to the selected scheduling algorithm.<br>
 
 In simple words, scheduling is similar to a restaurant (Atleast thats what i understood). 
 Dishes with the highest number of orders are priortized first. Tasks like washing dishes, managing inventory, etc have the least priority.
