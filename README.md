@@ -50,6 +50,8 @@ Dishes with the highest number of orders are priortized first. Tasks like washin
                 |      CPU      |
                 +---------------+
 
+## Sources:
+[FreeRTOS Documentation](https://freertos.org/Documentation/00-Overview)
 
 
 
