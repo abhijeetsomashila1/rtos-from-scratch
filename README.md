@@ -1,4 +1,4 @@
-# Fundamentals
+# RTOS-101
 
 ## Real Time Operating Systems (RTOS)
 A Real-Time Operating System (RTOS) is a type of computer operating system designed to be small and deterministic. RTOS is are commonly used in embedded systems such as medical devices and automotive ECUs that need to react to external events within strict time constraints.
