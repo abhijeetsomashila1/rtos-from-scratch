@@ -28,7 +28,7 @@ ESP32 Hardware
 
 # Installing ESP-IDF
 
-## Method: VS Code Extension (Recommended)
+## VS Code Extension 
 
 The easiest way to install ESP-IDF is through the official VS Code extension.
 
