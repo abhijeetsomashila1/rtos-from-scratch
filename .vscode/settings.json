@@ -1,3 +1,4 @@
 {
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "cmake.sourceDirectory": "C:/Users/absom/OneDrive/Desktop/rtos-from-scratch/FreeRTOS-esp32/blinkLED/main"
 }
